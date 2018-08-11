@@ -101,3 +101,7 @@ function changeArray (x, y) {
 
  d3.select("#counter").html(++steps);
 }
+
+function disableSortingButtons(){
+  d3.select("#bubbleSort")..disabled = true;
+}
