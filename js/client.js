@@ -46,7 +46,7 @@ var labels = svg.selectAll("text")
 function reset() {
    unsortedArray = [...array];
    sortedArray = [];
-   stop = false;
+   stop();
 
    d3.select("#counter").html(steps = 0)
 
