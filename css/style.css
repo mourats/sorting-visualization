@@ -1,0 +1,38 @@
+rect {
+	fill: steelblue;
+}
+
+div {
+	margin-left: 40px;
+	margin-top: 20px
+}
+
+text {
+	font: bold 10px monospace;
+	text-align: center;
+	fill: black;
+}
+
+.sorted {
+	fill: red;
+}
+
+.min {
+	fill: red;
+}
+
+.testing-red {
+	fill: red;
+}
+
+.testing-black {
+	fill: LightSlateGray;
+}
+
+.gold {
+	fill: gold;
+}
+
+.distance {
+	margin-left:40px;
+}
