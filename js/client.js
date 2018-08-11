@@ -103,5 +103,5 @@ function changeArray (x, y) {
 }
 
 function disableSortingButtons(){
-  d3.select("#bubbleSort")..disabled = true;
+  d3.select("#bubbleSort").disabled = true;
 }
