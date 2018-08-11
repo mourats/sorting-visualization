@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<script src="d3/d3.v4.min.js"></script>
+<script src="bootstrap/js/colorbrewer.v1.min.js"></script>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<title>Sorting Visualization</title>
+</head>
+
+<body>
+<body>
+	<div class="container">
+		<div class="row">
+
+			<div id="buttons">
+				Steps: <span id="counter">0</span>
+				<button onclick="bubbleSort()" class="distance btn">Bubble Sort</button>
+				<button onclick="insertionSort()" class="btn">Insertion Sort</button>
+				<button onclick="selectionSort()" class="btn">Selection Sort</button>
+				<button onclick="quickSort()" class="distance btn">Quick Sort</button>
+				<button onclick="mergeSort()" class="btn">Merge Sort</button>
+				<button onclick="stop()" class="distance btn">Stop</button>
+				<button onclick="reset()" class="btn">Reset</button>
+				<button onclick="shuffle()" class="btn">Embaralhar</button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div id="visualization"></div>
+		</div>
+	</div>
+
+	<script src="js/sorting.js"></script>
+	<script src="js/client.js"></script>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+	<script src="bootstrap/js/popper.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
